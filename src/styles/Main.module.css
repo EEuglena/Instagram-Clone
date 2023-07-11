@@ -1,0 +1,37 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 5rem 3rem;
+
+	background-color: white;
+}
+
+.container > div {
+	display: flex;
+	align-items: center;
+	width: min(500px, 100%);
+}
+
+.container > div:first-child {
+	flex-direction: row;
+	background-color: white;
+	box-shadow: 0 0 30px #ddd;
+}
+
+.profile {
+	width: 2rem;
+	height: 2rem;
+	margin: 1rem;
+
+	cursor: pointer;
+}
+
+.container p {
+	font-family: "NanumSquareNeo-Variable";
+}
+
+.posts {
+	margin: 3rem;
+	flex-direction: column;
+}
